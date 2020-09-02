@@ -2,4 +2,4 @@
 
 git add .
 git commit -m "Added Changelog"
-git push origin HEAD
+git push origin ${GITHUB_HEAD_REF}
