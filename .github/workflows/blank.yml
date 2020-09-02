@@ -25,7 +25,7 @@ jobs:
           git config user.name ${{ secrets.USERNAME }}
           git config user.email ${{ secrets.EMAIL }}
           git fetch origin
-          git checkout ${{GITHUB_HEAD_REF})\}
+          git checkout ${{GITHUB_HEAD_REF}}
 
       - name: changelog-ci
         uses: saadmk11/changelog-ci@master
