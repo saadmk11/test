@@ -27,4 +27,4 @@ jobs:
         run: echo Hello, world!
 
       - name: changelog-ci
-        uses: saadmk11/changelog-ci@0.0.6
+        uses: saadmk11/changelog-ci@0.0.7
