@@ -6,7 +6,7 @@ echo ${GITHUB_BASE_REF}
 
 
 
-git checkout  ${GITHUB_REF}
+git checkout  ${GITHUB_HEAD_REF}
 git add .
 git commit -m "Added Changelog"
-git push origin ${GITHUB_REF}
+git push origin ${GITHUB_HEAD_REF}
