@@ -28,11 +28,3 @@ jobs:
 
       - name: changelog-ci
         uses: saadmk11/changelog-ci@0.0.13
-
-      - name: Commit files
-        run: |
-          git config --local user.email ${{ secrets.USERNAME }}
-          git config --local user.name ${{ secrets.EMAIL }}
-          git add .
-          git commit -m "Updated Repository data"
-          git push origin ${{GITHUB_REF}}
