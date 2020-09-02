@@ -1,8 +1,7 @@
 #!/bin/bash
 
-echo ${GITHUB_REF}
-echo ${GITHUB_HEAD_REF}
-echo ${GITHUB_BASE_REF}
+echo ${REF}
+echo ${BASE_REF}
 
 git fetch origin
 git checkout ${GITHUB_HEAD_REF}
