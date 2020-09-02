@@ -1,0 +1,11 @@
+name: 'test'
+on:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: changelog-ci
+       uses: saadmk11/changelog-ci@0.0.5
