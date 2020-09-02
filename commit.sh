@@ -1,9 +1,11 @@
 #!/bin/bash
 
-echo ${GITHUB_REF##*/}
 echo ${GITHUB_REF}
 echo ${GITHUB_HEAD_REF}
 echo ${GITHUB_BASE_REF}
+echo ${github.head_ref}
+echo ${github.ref}
+echo ${ github.base_ref }
 
 
 
