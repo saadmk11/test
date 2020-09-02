@@ -19,18 +19,6 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-        with:
-          ref: ${{env.GITHUB_HEAD_REF}}
 
       - name: changelog-ci
         uses: saadmk11/changelog-ci@master
-      
-      - name: setup git config
-        run: |
-          git config user.name ${{ secrets.USERNAME }}
-          git config user.email ${{ secrets.EMAIL }}
-
-      - name: commit changes
-        run: |
-          chmod +x ./commit.sh
-          ./commit.sh
