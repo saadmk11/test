@@ -51,15 +51,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      
-      - name: Commit files
-        run: |
-          git config --local user.email ${{ secrets.USERNAME }}
-          git config --local user.name ${{ secrets.EMAIL }}
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
 
       - name: changelog-ci
-        uses: saadmk11/changelog-ci@0.0.13
+        uses: saadmk11/changelog-ci@0.0.14
