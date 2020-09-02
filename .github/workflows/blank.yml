@@ -27,4 +27,7 @@ jobs:
         run: echo Hello, world!
 
       - name: changelog-ci
-        uses: saadmk11/changelog-ci@0.0.9
+        uses: saadmk11/changelog-ci@0.0.10
+        env:
+          USERNAME: ${{ secrets.USERNAME }}
+          EMAIL: ${{ secrets.EMAIL }}
