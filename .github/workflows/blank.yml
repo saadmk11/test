@@ -20,6 +20,8 @@ jobs:
 
       - name: changelog-ci
         uses: saadmk11/changelog-ci@master
+        with:
+          changelog_filename: test.md
         env:
           USERNAME:  ${{secrets.USERNAME}}
           EMAIL:  ${{secrets.EMAIL}}
