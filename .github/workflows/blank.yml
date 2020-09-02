@@ -19,9 +19,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-      - run: |
-          git fetch --prune --unshallow
-          git checkout ${{env.GITHUB_HEAD_REF}}
+        with:
+          ref: ${{env.GITHUB_HEAD_REF}}
 
       - name: changelog-ci
         uses: saadmk11/changelog-ci@master
