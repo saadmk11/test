@@ -31,3 +31,9 @@ jobs:
         env:
           USERNAME: ${{ secrets.USERNAME }}
           EMAIL: ${{ secrets.EMAIL }}
+      - name: Commit files
+        run: |
+              git config --local user.email "test@test.com"
+              git config --local user.name "GitHub Action"
+              git commit -m "Add changes" -a
+              git push origin ${{GITHUB_REF}}
