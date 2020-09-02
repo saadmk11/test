@@ -1,3 +1,9 @@
+Version: 0.0.6
+==============
+
+* [#57](https://github.com/saadmk11/test/pull/57): Create test.dfgfg
+
+
 Version: 0.0.5
 ==============
 
