@@ -1,8 +1,12 @@
 {
-  "header_prefix": "Release:",
+  "header_prefix": "RELEASE:",
   "sort_config": [
-
-
+    {
+      "title": "Bug Fixes",
+      "labels": ["bug", "bugfix"]
+    },
+    {
+      "title": "Improvements to Code",
       "labels": ["improvements", "enhancement"]
     },
     {
