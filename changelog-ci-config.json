@@ -1,0 +1,21 @@
+{
+  "header_prefix": "Version:",
+  "sort_config": [
+    {
+      "title": "Bug Fixes",
+      "labels": ["bug", "bugfix"]
+    },
+    {
+      "title": "Improvements to Code",
+      "labels": ["improvements", "enhancement"]
+    },
+    {
+      "title": "New Features",
+      "labels": ["feature"]
+    },
+    {
+      "title": "Documentation Updates",
+      "labels": ["docs", "documentation", "doc"]
+    }
+  ]
+}
