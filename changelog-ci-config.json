@@ -1,6 +1,6 @@
 {
-  "header_prefix": "RELEASE:",
-  "sort_config": [
+  "header_prefix": "Version:",
+  "group_config": [
     {
       "title": "Bug Fixes",
       "labels": ["bug", "bugfix"]
