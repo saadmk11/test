@@ -25,4 +25,4 @@ jobs:
           config_file: changelog-ci-config.json
         env: 
           USERNAME: "changelog-ci"
-          EMAIL: "changelog-ci@users.noreply.github.com"
+          EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
