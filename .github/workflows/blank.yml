@@ -19,10 +19,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: changelog-ci
-        uses: saadmk11/changelog-ci@master
+        uses: saadmk11/changelog-ci@optional-username-email
         with:
           changelog_filename: MY_CHANGELOG.md
           config_file: changelog-ci-config.json
-        env: 
-          USERNAME: "changelog-ci"
-          EMAIL: "41898282+github-actions[bot]@users.noreply.github.com"
