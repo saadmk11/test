@@ -1,6 +1,7 @@
 {
   "header_prefix": "Release:",
-  "pull_request_title_regex": ".*",
+  "pull_request_title_regex": 12,
+  "version_regex": 22,
   "group_config": [
     {
       "title": "Bug Fixes",
