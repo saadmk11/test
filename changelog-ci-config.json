@@ -1,4 +1,4 @@
 {
   "header_prefix": "New Release:",
-  "pull_request_title_regex": ".*",
+  "pull_request_title_regex": ".*"
 }
