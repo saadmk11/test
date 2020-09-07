@@ -24,5 +24,5 @@ jobs:
           changelog_filename: MY_CHANGELOG.md
           config_file: changelog-ci-config.json
         env: 
-          USERNAME:  changelog-ci
-          EMAIL:  changelog-ci@users.noreply.github.com 
+          USERNAME: "changelog-ci"
+          EMAIL: "changelog-ci@users.noreply.github.com"
