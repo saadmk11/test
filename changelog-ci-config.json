@@ -1,7 +1,7 @@
 {
-  "commit_changelog": true,
+  "commit_changelog": false,
+  "comment_changelog": false,
   "header_prefix": "Release:",
-  "pull_request_title_regex": "Release",
   "group_config": [
     {
       "title": "Bug Fixes",
@@ -9,7 +9,7 @@
     },
     {
       "title": "Improvements to Code",
-      "labels": "TEST"
+      "labels": ["improvements", "enhancement"]
     },
     {
       "title": "New Features",
