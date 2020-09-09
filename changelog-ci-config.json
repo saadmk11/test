@@ -1,6 +1,6 @@
 {
   "commit_changelog": true,
-  "comment_changelog": true,
+  "comment_changelog": false,
   "header_prefix": "Release:",
   "group_config": [
     {
