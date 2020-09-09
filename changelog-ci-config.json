@@ -1,6 +1,4 @@
 {
-  "commit_changelog": true,
-  "comment_changelog": true,
   "header_prefix": "Release:",
   "pull_request_title_regex": "Release",
   "group_config": [
