@@ -1,12 +1,9 @@
 {
   "commit_changelog": true,
   "comment_changelog": true,
-  "header_prefix": "Release:",
-  "pull_request_title_regex": ".*",
   "group_config": [
     {
-      "title": "Bug Fixes",
-      "labels": ["bug", "bugfix"]
+      "title": "Bug Fixes"
     },
     {
       "title": "Improvements to Code",
