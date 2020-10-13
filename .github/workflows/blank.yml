@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: changelog-ci
-        uses: saadmk11/changelog-ci@test
+        uses: saadmk11/changelog-ci@organize-action-output
         with:
           changelog_filename: MY_CHANGELOG.md
           config_file: changelog-ci-config.json
