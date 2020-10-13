@@ -23,5 +23,3 @@ jobs:
         with:
           changelog_filename: MY_CHANGELOG.md
           config_file: changelog-ci-config.json
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
