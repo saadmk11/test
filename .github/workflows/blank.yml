@@ -22,6 +22,6 @@ jobs:
         uses: saadmk11/changelog-ci@test-yaml-config
         with:
           changelog_filename: MY_CHANGELOG.md
-          config_file: changelog-ci-config.yaml
+          config_file: changelog-ci-config.json
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
