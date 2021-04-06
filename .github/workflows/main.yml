@@ -25,3 +25,4 @@ jobs:
         uses: saadmk11/github-action-upgrade@main
         with:
           token: ${{ secrets.WORKFLOW_SECRET }}
+          committer_username: ${{ secrets.USERNAME }}
