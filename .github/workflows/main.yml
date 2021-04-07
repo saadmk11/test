@@ -25,5 +25,5 @@ jobs:
 
       - name: Run GitHub Action Updater
         uses: saadmk11/github-action-upgrade@main
-        env:
-          GITHUB_TOKEN: ${{ secrets.WORKFLOW_SECRET }}
+        with:
+          token: ${{ secrets.WORKFLOW_SECRET }}
