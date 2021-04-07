@@ -21,7 +21,7 @@ jobs:
           token: ${{ secrets.WORKFLOW_SECRET }}
 
       - name: Run GitHub Action Updater
-        uses: saadmk11/github-action-upgrade@add-ignore-option
+        uses: saadmk11/github-action-upgrade@main
         with:
           token: ${{ secrets.WORKFLOW_SECRET }}
           ignore: '["actions/checkout@v2", "actions/cache@v2", "saadmk11/test@v1"]'
