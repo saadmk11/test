@@ -24,4 +24,4 @@ jobs:
         uses: saadmk11/github-action-upgrade@main
         with:
           token: ${{ secrets.WORKFLOW_SECRET }}
-
+          ignore: '["actions/checkout@v2", "actions/cache@v2"]'
