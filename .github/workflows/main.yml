@@ -16,7 +16,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
         with:
           token: ${{ secrets.WORKFLOW_SECRET }}
 
@@ -24,4 +24,4 @@ jobs:
         uses: saadmk11/github-action-upgrade@add-ignore-option
         with:
           token: ${{ secrets.WORKFLOW_SECRET }}
-          ignore: '["actions/checkout@v2", "actions/cache@v2", "saadmk11/test@v1"]'
+          ignore: '["actions/checkout@v2.3.4", "actions/cache@v2", "saadmk11/test@v1"]'
