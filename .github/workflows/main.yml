@@ -16,11 +16,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.3.4
         with:
           token: ${{ secrets.WORKFLOW_SECRET }}
 
       - name: Run GitHub Action Updater
-        uses: saadmk11/github-action-upgrade@remove-duplicate-comment-line
+        uses: saadmk11/github-action-upgrade@v0.5.5
         with:
           token: ${{ secrets.WORKFLOW_SECRET }}

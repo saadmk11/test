@@ -23,7 +23,7 @@ jobs:
           POSTGRES_PASSWORD: postgres
           POSTGRES_DB: postgres
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2.3.4
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
@@ -44,13 +44,13 @@ jobs:
       run: |
         coverage run --parallel -m pytest -x
     - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v1
+      uses: codecov/codecov-action@v1.3.2
       with:
         fail_ci_if_error: true
   lint_python:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2.3.4
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
@@ -66,9 +66,9 @@ jobs:
   lint_js:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2.3.4
     - name: Set up NodeJS
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v2.1.5
     - name: Install dependencies
       run: |
         npm ci
@@ -78,7 +78,7 @@ jobs:
   sandbox:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2.3.4
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
@@ -90,7 +90,7 @@ jobs:
   docs:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2.3.4
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
