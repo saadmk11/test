@@ -21,6 +21,6 @@ jobs:
           token: ${{ secrets.WORKFLOW_SECRET }}
 
       - name: Run GitHub Action Updater
-        uses: saadmk11/github-action-upgrade@main
+        uses: saadmk11/github-action-upgrade@remove-duplicate-comment-line
         with:
           token: ${{ secrets.WORKFLOW_SECRET }}
