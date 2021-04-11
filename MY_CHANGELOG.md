@@ -1,5 +1,39 @@
 # Release: v1.1.0 (01-23-2018)
 
+
+#### Bug Fixes
+
+
+* [#64](https://github.com/saadmk11/test/pull/64): Update README.md
+* [#67](https://github.com/saadmk11/test/pull/67): Bug bug and bug
+
+#### Improvements to Code
+
+
+* [#70](https://github.com/saadmk11/test/pull/70): Update README.md
+* [#63](https://github.com/saadmk11/test/pull/63): release 2.0.0
+* [#68](https://github.com/saadmk11/test/pull/68): Update README.md
+
+#### New Features
+
+
+* [#65](https://github.com/saadmk11/test/pull/65): New feature
+
+#### Documentation Updates
+
+
+* [#66](https://github.com/saadmk11/test/pull/66): Docs update
+
+#### Other Changes
+
+* [#57](https://github.com/saadmk11/test/pull/57): Create test.dfgfg
+* [#58](https://github.com/saadmk11/test/pull/58): Release 0.0.6
+* [#69](https://github.com/saadmk11/test/pull/69): Feature and bug test
+* [#192](https://github.com/saadmk11/test/pull/192): test
+
+
+# Release: v1.1.0 (01-23-2018)
+
 * [20fcf7](https://github.com/saadmk11/test/commit/20fcf7526bb8cc69b3be0d916afe5e36348ff519): test
 * [25178b](https://github.com/saadmk11/test/commit/25178bd2cb9a7c8b216f3a682b61b4d746903676): Update changelog-ci-config.yaml
 * [7a7956](https://github.com/saadmk11/test/commit/7a795682a60d77c91ba20c4c7a55d457c8868bf3): Update changelog-ci-config.yaml
