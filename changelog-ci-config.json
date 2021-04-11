@@ -1,18 +1,17 @@
-
 {
   "commit_changelog": true,
   "comment_changelog": true,
-  "changelog_type": "commit_message",
+  "changelog_type": "test",
   "header_prefix": "Release:",
   "pull_request_title_regex": "^Release",
   "version_regex": "v?([0-9]{1,2})+[.]+([0-9]{1,2})+[.]+([0-9]{1,2})\\s\\(\\d{1,2}-\\d{1,2}-\\d{4}\\)",
   "group_config": [
     {
-      "title": "Bug Fixes",
+      "title": 1,
       "labels": ["bug", "bugfix"]
     },
     {
-      "title": "Improvements to Code",
+      "title": 2,
       "labels": ["improvements", "enhancement"]
     },
     {
