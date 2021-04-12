@@ -6,12 +6,26 @@
   "version_regex": "v?([0-9]{1,2})+[.]+([0-9]{1,2})+[.]+([0-9]{1,2})\\s\\(\\d{1,2}-\\d{1,2}-\\d{4}\\)",
   "group_config": [
     {
+      "title": "DEF",
+      "labels": ["NEWWWW"]
+    },
+    {
       "title": 1,
       "labels": ["bug", "bugfix"]
     },
     {
+      "title": "",
+      "labels": ["bug", "bugfix"]
+    },
+    {
+      "labels": ["docs", "documentation", "doc"]
+    },
+    {
       "title": "Improvements to Code",
       "labels": [1]
+    },
+    {
+      "title": "Improvements to Code2"
     },
     {
       "title": "New Features",
@@ -26,6 +40,7 @@
       "labels": 1
     },
     {
+      "title": "ABC",
       "labels": ["docs", "documentation", "doc"]
     }
   ]
