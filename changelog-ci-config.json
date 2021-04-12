@@ -1,21 +1,31 @@
 {
+  "commit_changelog": "fdhgf",
+  "comment_changelog": true,
+  "header_prefix": "Release99:",
   "pull_request_title_regex": "^Release",
   "version_regex": "v?([0-9]{1,2})+[.]+([0-9]{1,2})+[.]+([0-9]{1,2})\\s\\(\\d{1,2}-\\d{1,2}-\\d{4}\\)",
   "group_config": [
     {
-      "title": "Bug Fixes",
+      "title": 1,
       "labels": ["bug", "bugfix"]
     },
     {
       "title": "Improvements to Code",
-      "labels": ["improvements", "enhancement"]
+      "labels": [1]
     },
     {
       "title": "New Features",
-      "labels": ["feature"]
+      "labels": []
     },
     {
-      "title": "Documentation Updates",
+      "title": "New Features2",
+      "labels": ""
+    },
+    {
+      "title": "New Features6",
+      "labels": 1
+    },
+    {
       "labels": ["docs", "documentation", "doc"]
     }
   ]
