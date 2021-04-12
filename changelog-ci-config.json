@@ -1,46 +1,25 @@
 {
-  "commit_changelog": "fdhgf",
+  "commit_changelog": true,
   "comment_changelog": true,
-  "header_prefix": "Release99:",
+  "changelog_type": "commit_message",
+  "header_prefix": "Release:",
   "pull_request_title_regex": "^Release",
   "version_regex": "v?([0-9]{1,2})+[.]+([0-9]{1,2})+[.]+([0-9]{1,2})\\s\\(\\d{1,2}-\\d{1,2}-\\d{4}\\)",
   "group_config": [
     {
-      "title": "DEF",
-      "labels": ["NEWWWW"]
-    },
-    {
-      "title": 1,
+      "title": "Bug Fixes",
       "labels": ["bug", "bugfix"]
-    },
-    {
-      "title": "",
-      "labels": ["bug", "bugfix"]
-    },
-    {
-      "labels": ["docs", "documentation", "doc"]
     },
     {
       "title": "Improvements to Code",
-      "labels": [1]
-    },
-    {
-      "title": "Improvements to Code2"
+      "labels": ["improvements", "enhancement"]
     },
     {
       "title": "New Features",
-      "labels": []
+      "labels": ["feature"]
     },
     {
-      "title": "New Features2",
-      "labels": ""
-    },
-    {
-      "title": "New Features6",
-      "labels": 1
-    },
-    {
-      "title": "ABC",
+      "title": "Documentation Updates",
       "labels": ["docs", "documentation", "doc"]
     }
   ]
