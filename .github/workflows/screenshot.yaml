@@ -19,7 +19,7 @@ jobs:
       - name: screenshot
         uses: saadmk11/comment-website-screenshot@main
         with:
-          upload_to: imgur
+          upload_to: github_branch
           capture_changed_html_files: yes
           capture_html_file_paths: 'html/about.html,'
           capture_urls: 'https://www.google.com, https://www.twitter.com'
