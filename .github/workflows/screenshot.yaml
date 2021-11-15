@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: '16.x'
       - run: npm install pm2 -g
-      - run: pm2 start main.js -p 8081 && sleep 10 && curl http://localhost:8081
+      - run: pm2 start main.js -p 8081 && sleep 10
 
       - name: screenshot
         uses: saadmk11/comment-website-screenshot@main
@@ -29,5 +29,3 @@ jobs:
           upload_to: github_branch
           capture_changed_html_files: yes
           capture_urls: 'http://172.17.0.1:8081'
-      - run: pm2 list
-      - run: curl http://localhost:8081
