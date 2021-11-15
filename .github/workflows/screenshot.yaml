@@ -31,3 +31,4 @@ jobs:
           capture_html_file_paths: 'html/about.html,'
           capture_urls: 'http://localhost:8081/'
       - run: pm2 list
+      - run: curl http://localhost:8081
