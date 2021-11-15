@@ -20,8 +20,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '16.x'
-      - run: npm install
-      - run: npm run build --if-present
       - run: node main.js
 
       - name: screenshot
