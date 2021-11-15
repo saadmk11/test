@@ -30,3 +30,4 @@ jobs:
           capture_changed_html_files: yes
           capture_html_file_paths: 'html/about.html,'
           capture_urls: 'http://0.0.0.0:8081/'
+      - run: pm2 list
