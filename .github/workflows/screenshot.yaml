@@ -29,4 +29,4 @@ jobs:
           upload_to: imgur
           capture_changed_html_files: yes
           capture_html_file_paths: 'html/about.html,'
-          capture_urls: 'http://127.0.0.1:8081/'
+          capture_urls: 'http://0.0.0.0:8081/'
