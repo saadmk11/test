@@ -21,7 +21,7 @@ jobs:
         with:
           node-version: '16.x'
       - run: npm install pm2 -g
-      - run: pm2 start main.js -p 8081
+      - run: pm2 start main.js -p 8081 && sleep 10 && curl http://localhost:8081
 
       - name: screenshot
         uses: saadmk11/comment-website-screenshot@main
