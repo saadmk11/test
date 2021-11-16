@@ -22,3 +22,10 @@ jobs:
         pip install Django==3.2.9
         django-admin startproject mysite .
         nohup python manage.py runserver 0.0.0.0:8080 &
+
+    - name: screenshot
+      uses: saadmk11/comment-website-screenshot@main
+      with:
+        upload_to: github_branch
+        capture_changed_html_files: yes
+        capture_urls: 'http://172.17.0.1:8080, http://172.17.0.1:8080/admin/login'
