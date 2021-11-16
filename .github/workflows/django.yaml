@@ -1,5 +1,9 @@
 name: Python application
 
+on:
+  workflow_dispatch:
+  pull_request:
+    types: [opened, reopened, synchronize]
 
 jobs:
   build:
@@ -12,12 +16,10 @@ jobs:
       uses: actions/setup-python@v1
       with:
         python-version: 3.7
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install Django==3.2.9
-        django-admin startproject mysite .
-        nohup python manage.py runserver 0.0.0.0:8080 &
+    - run: python -m pip install --upgrade pip
+    - run: pip install Django==3.2.9
+    - run: django-admin startproject mysite .
+    - run: nohup python manage.py runserver 0.0.0.0:8080 &
 
     - name: screenshot
       uses: saadmk11/comment-website-screenshot@main
